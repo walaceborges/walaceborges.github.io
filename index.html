@@ -3,6 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio | Walace Borges</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <style>
+        .fonte-nome{
+            font-family: 'Fjalla One';
+        }
+        .fonte-descrição{
+            font-family: Verdana;
+            font-style: italic;
+        }
+        body{
+            background-color: #f3eaf9;
+        }
+        .style-hardskills{
+            font-family: Segoe UI;
+            color: blueviolet;
+        }
+        .style-softskills{
+            font-family: Segoe UI;
+            color: blue;
+        }
+        .style-projetos{
+            font-family: Segoe UI;
+            color: aqua;
+        }
+        .lista-hardskills{
+            font-size: 2em;
+        }
+        .lista-softskills{
+            font-size: 2em;
+        }
+        .lista-projetos{
+            font-size: 2em;
+        }
+    </style>
 </head>
 <body>
     <div id="indice">
@@ -16,7 +52,7 @@
     </div>
     <div id="ola">
     <!-- Hello -->
-    <h1>Olá, me chamo Walace</h1>
+    <h1 class="fonte-nome">Olá, me chamo Walace</h1>
     <h2><strong>Estudante de Desenvolvimento na Trybe</strong></h2>
     <img id="walacefoto"src="./assets/pessoal.jpg" alt="perfil" width="350px">
     <br>
@@ -27,7 +63,7 @@
     <hr>
     <div id="sobre">
     <!-- Sobre -->
-    <p>
+    <p class="fonte-descrição">
         Meu nome completo é <a href="#walacefoto">Walace de Abreu Borges</a>, porém, pode me chamar apenas por <b>Walace</b>. Nasci e moro no Rio de Janeiro/RJ e atualmente estudo na <strong>Trybe</strong>.
     </p>
     <a href="https://github.com/walaceborges">GitHub</a>
@@ -35,24 +71,24 @@
 
     <h3>Proficiências</h3>
 
-    <h4>Hard Skills</h4>
-    <ul>
+    <h4 class="style-hardskills">Hard Skills</h4>
+    <ul class="lista-hardskills">
         <li>Git</li>
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
     </ul>
 
-    <h4>Soft Skills</h4>
-    <ul>
+    <h4 class="style-softskills">Soft Skills</h4>
+    <ul class="lista-softskills">
         <li>Trabalho em Equipe</li>
         <li>Gestão de tempo</li>
         <li>Escrita</li>
         <li>Trabalhar sob pressão</li>
     </ul>
 
-    <h4><strong>Projetos</strong></h4>
-    <ul>
+    <h4 class="style-projetos"><strong>Projetos</strong></h4>
+    <ul class="lista-projetos">
         <li>Numero 1</li>
         <li>Numero 2</li>
         <li>Numero 3</li>
